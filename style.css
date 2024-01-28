@@ -1,0 +1,77 @@
+/* Apply styles to the header */
+
+body {
+
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3b3b3b;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* Center align the text */
+}
+
+/* Apply styles to the h1 in the header */
+.header h1 {
+    margin-bottom: 0;
+    /* Remove margin for h1 */
+}
+
+/* Apply styles to the navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the list items in the navigation */
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    /* Adjust spacing between items */
+}
+
+/* Apply styles to the anchor tags in the navigation */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    /* Adjust the font size */
+}
+
+/* Apply styles to the buttons in the navigation */
+nav ul li {
+    padding: 7px 14px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Apply styles to the navigation on hover */
+nav ul li:hover {
+    background-color: #555;
+    /* Change background color on hover */
+}
+
+.h1 {
+    padding: 10px;
+}
+footer {
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+  
+  }
+  
