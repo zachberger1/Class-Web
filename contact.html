@@ -1,133 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="style.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>כיתה ז'1</title>
-
     <style>
-
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-   
-}
-
-header {
-    background-color: #3b3b3b;
-    color: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.header h1 {
-    margin-bottom: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li {
-    padding: 7px 14px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-nav ul li:hover {
-    background-color: #555;
-}
-
-.h1 {
-    padding: 10px;
-}
-
-.footer {
-    background-color: #3b3b3b;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-
-
-.copy {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #3b3b3b;
- 
-}
-
-table {
-    border-collapse: collapse;
-    width: 80%;
-    margin: auto;
-    margin-top: 300px;
-    margin-bottom: 650px;
-   
-}
-
-table,
-th,
-td {
-    border: 1px solid #ddd;
-}
-
-th,
-td {
-    padding: 10px;
-    text-align: center;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-.name-column {
-    text-align: center;
-}
-
-
-
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #3b3b3b;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin-bottom: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li {
+            padding: 7px 14px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        nav ul li:hover {
+            background-color: #555;
+        }
+        .h1 {
+            padding: 10px;
+        }
+        .footer {
+            background-color: #3b3b3b;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .copy {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .centered {
+            color: #3b3b3b;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 100px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .name-column {
+            text-align: center;
+        }
+        @media only screen and (min-width: 600px) {
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            table {
+                width: 80%;
+                margin: auto;
+                margin-top: 280px;
+                margin-bottom: 100px;
+            }
+            .table-div {
+                margin-bottom: 1250px;
+            }
+        }
+        @media only screen and (max-width: 599px) {
+            table {
+                margin-top: 155px;
+                margin-bottom: 110px; /* Adjusted margin for smaller screens */
+            }
+            .header, .footer {
+                width: 100%;
+            }
+            .footer {
+                bottom: 0;
+            }
+        }
     </style>
 </head>
-
 <body>
     <header class="header">
         <center>
@@ -135,15 +123,13 @@ th {
         </center>
         <nav>
             <ul>
-
                 <li><a href="paeper.html">דף קשר</a></li>
                 <li><a href="contact.html">אנשי קשר</a></li>
                 <li><a href="index.html">דף הבית</a></li>
             </ul>
         </nav>
     </header>
-
-   <div class="table-div" >
+    <div class="table-div">
         <table class="centered" dir="rtl">
             <thead>
                 <tr>
@@ -151,162 +137,159 @@ th {
                     <th>פרטי:</th>
                     <th>אמא:</th>
                     <th>אבא:</th>
-                   
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td class="name-column">סעדיה אסודרי</td>
-                    <td>0000000000</td>
-                    <td>052-6119449</td>
-                    <td>052-6099554</td>
-                </tr>
-                <tr>
-                    <td class="name-column">אלעאי בן דוד</td>
-                    <td>053-4755780</td>
-                    <td>054-2002475</td>
-                    <td>050-5064309</td>
-                </tr>
-                <tr>
-                    <td class="name-column">זכריה ברגר</td>
-                    <td>055-3300546</td>
-                    <td>052-6888651</td>
-                    <td>052-7221299</td>
-                </tr>
-                <tr>
-                    <td class="name-column">אליהו דיין</td>
-                    <td>058-3229171</td>
-                    <td>052-7865678</td>
-                    <td>052-7864678</td>
-                </tr>
-                
-                <tr>
-                    <td class="name-column">אחים וייס</td>
-                    <td>0000000000</td>
-                    <td>053-8926399</td>
-                    <td>058-4880503</td>
-                </tr>
-                <tr>
-                    <td class="name-column">יונתן ולס</td>
-                    <td>052-7129306</td>
-                    <td>054-7993459</td>
-                    <td>052-7162786</td>
-                </tr>
-                <tr>
-                    <td class="name-column">יאיר יונגרייס</td>
-                    <td>058-3204656</td>
-                    <td>054-2204656</td>                   
-                    <td>052-3909400</td>
-                </tr>
-                <tr>
-                    <td class="name-column">יהודה לוי</td>
-                    <td>0000000000</td>
-                    <td>054-4877648</td>
-                    <td>054-9477199</td>
-                </tr>
-                <tr>
-                    <td class="name-column">יעקב לויטן</td>
-                    <td>0000000000</td>
-                    <td>050-7125452</td>
-                    <td>054-2188880</td>
-                </tr>
-                <tr>
-                    <td class="name-column">איתמר לינדנבאום</td>
-                    <td>0000000000</td>
-                    <td>052-3471145</td>
-                    <td>052-8431110</td>
-                </tr>
-                <tr>
-                    <td class="name-column">נתנאל לפקוביץ</td>
-                    <td>0000000000</td>
-                    <td>052-8410045</td>
-                    <td>052-8579957</td>
-                </tr>
-                <tr>
-                    <td class="name-column">אורי סורוצין</td>
-                    <td>0000000000</td>
-                    <td>0000000000</td>
-                    <td>050-4441622</td>
-                </tr>
-                <tr>
-                    <td class="name-column">אביהו סיבוני</td>
-                    <td>0000000000</td>
-                    <td>054-7215475</td>
-                    <td>050-9469000</td>
-                </tr>
-                <tr>
-                    <td class="name-column">משה עזרא</td>
-                    <td>053-3136356</td>
-                    <td>050-8562562</td>
-                    <td>050-7421111</td>
-                </tr>
-                <tr>
-                    <td class="name-column">ידידיה פוקסברומר</td>
-                    <td>055-2414091</td>
-                    <td>054-8440463</td>
-                    <td>052-3234520</td>
-                </tr>
-                <tr>
-                    <td class="name-column">יאיר פרקוף</td>
-                    <td>0000000000</td>
-                    <td>058-7654132</td>
-                    <td>052-9542000</td>
-                </tr>
-                <tr>
-                    <td class="name-column">נתי קוריץ</td>
-                    <td>052-8635054</td>
-                    <td> </td>
-                    <td>050-8634204</td>
-                </tr>
-                <tr>
-                    <td class="name-column">יצחק קורלנסקי</td>
-                    <td>058-6661880</td>
-                    <td>052-2221880</td>
-                    <td>052-2221550</td>
-                </tr>
-                <tr>
-                    <td class="name-column">מיכאל רסקין</td>
-                    <td>0000000000</td>
-                    <td>052-9811101</td>
-                    <td>052-6888028</td>
-                </tr>
-                <tr>
-                    <td class="name-column">שמואל רבי</td>
-                    <td>0583214979</td>
-                    <td>054-2427670</td>
-                    <td>054-2423247</td>
-                </tr>
-                <tr>
-                    <td class="name-column">יונתן רוחימוביץ</td>
-                    <td>054-8806191</td>
-                    <td>054-8436110</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="name-column">נועם שוימר</td>
-                    <td>אין</td>
-                    <td>050-6785285</td>
-                    <td>055-5574161</td>
-                </tr>
-                <tr>
-                    <td class="name-column">מרדכי שיינברג</td>
-                    <td>0000000000</td>
-                    <td>052-7599559</td>
-                    <td>052-8477795</td>
-                </tr>
-                
-
+                <tbody>
+                    <tr>
+                        <td class="name-column">סעדיה אסודרי</td>
+                        <td>0000000000</td>
+                        <td>052-6119449</td>
+                        <td>052-6099554</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">אלעאי בן דוד</td>
+                        <td>053-4755780</td>
+                        <td>054-2002475</td>
+                        <td>050-5064309</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">זכריה ברגר</td>
+                        <td>055-3300546</td>
+                        <td>052-6888651</td>
+                        <td>052-7221299</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">אליהו דיין</td>
+                        <td>058-3229171</td>
+                        <td>052-7865678</td>
+                        <td>052-7864678</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="name-column">אחים וייס</td>
+                        <td>0000000000</td>
+                        <td>053-8926399</td>
+                        <td>058-4880503</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">יונתן ולס</td>
+                        <td>052-7129306</td>
+                        <td>054-7993459</td>
+                        <td>052-7162786</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">יאיר יונגרייס</td>
+                        <td>058-3204656</td>
+                        <td>054-2204656</td>                   
+                        <td>052-3909400</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">יהודה לוי</td>
+                        <td>0000000000</td>
+                        <td>054-4877648</td>
+                        <td>054-9477199</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">יעקב לויטן</td>
+                        <td>0000000000</td>
+                        <td>050-7125452</td>
+                        <td>054-2188880</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">איתמר לינדנבאום</td>
+                        <td>0000000000</td>
+                        <td>052-3471145</td>
+                        <td>052-8431110</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">נתנאל לפקוביץ</td>
+                        <td>0000000000</td>
+                        <td>052-8410045</td>
+                        <td>052-8579957</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">אורי סורוצין</td>
+                        <td>0000000000</td>
+                        <td>0000000000</td>
+                        <td>050-4441622</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">אביהו סיבוני</td>
+                        <td>0000000000</td>
+                        <td>054-7215475</td>
+                        <td>050-9469000</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">משה עזרא</td>
+                        <td>053-3136356</td>
+                        <td>050-8562562</td>
+                        <td>050-7421111</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">ידידיה פוקסברומר</td>
+                        <td>055-2414091</td>
+                        <td>054-8440463</td>
+                        <td>052-3234520</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">יאיר פרקוף</td>
+                        <td>0000000000</td>
+                        <td>058-7654132</td>
+                        <td>052-9542000</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">נתי קוריץ</td>
+                        <td>052-8635054</td>
+                        <td> </td>
+                        <td>050-8634204</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">יצחק קורלנסקי</td>
+                        <td>058-6661880</td>
+                        <td>052-2221880</td>
+                        <td>052-2221550</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">מיכאל רסקין</td>
+                        <td>0000000000</td>
+                        <td>052-9811101</td>
+                        <td>052-6888028</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">שמואל רבי</td>
+                        <td>0583214979</td>
+                        <td>054-2427670</td>
+                        <td>054-2423247</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">יונתן רוחימוביץ</td>
+                        <td>054-8806191</td>
+                        <td>054-8436110</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">נועם שוימר</td>
+                        <td>אין</td>
+                        <td>050-6785285</td>
+                        <td>055-5574161</td>
+                    </tr>
+                    <tr>
+                        <td class="name-column">מרדכי שיינברג</td>
+                        <td>0000000000</td>
+                        <td>052-7599559</td>
+                        <td>052-8477795</td>
+                    </tr>
+                    
+    
+                </tbody>
             </tbody>
         </table>
     </div>
-
     <footer class="footer">
         <center>
             <p class="copy">&copy;כל הזכיות שמורות לזכריה ברגר ומשרדו</p>
         </center>
-
     </footer>
 </body>
-
 </html>
-
