@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-   
+
 }
 
 header {
@@ -78,16 +78,16 @@ nav ul li:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #3b3b3b;
- 
+
 }
 
 table {
     border-collapse: collapse;
     width: 80%;
-    margin: auto;
+
     margin-top: 300px;
     margin-bottom: 650px;
-   
+
 }
 
 table,
@@ -110,3 +110,7 @@ th {
     text-align: center;
 }
 
+.table-div{
+
+    margin-bottom: 1280px;
+}
