@@ -50,6 +50,29 @@ nav ul li {
 nav ul li:hover {
     background-color: #555;
 }
+/* Apply styles to both the <li> elements and the <button> */
+/* Apply styles to both the <li> elements and the <button> */
+nav ul li, nav button {
+    display: inline-block;
+ 
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from buttons */
+    font-size: 18px;
+}
+
+/* Apply hover effect to both the <li> elements and the <button> */
+nav ul li:hover, nav button:hover {
+    background-color: #555;
+}
+
+/* Adjust padding for the <h1> within the header */
+.header h1 {
+    margin-bottom: 0;
+    padding: 10px;
+}
 
 .h1 {
     padding: 10px;
@@ -113,4 +136,14 @@ th {
 .table-div {
     
     margin-bottom: 1660px;
+}
+
+.embed{
+
+    height: 100%;
+    width: 100%;
+}
+.sh1{
+margin-left: 30%;
+    margin-top: 180px;
 }
