@@ -50,21 +50,25 @@ nav ul li {
 nav ul li:hover {
     background-color: #555;
 }
+
 /* Apply styles to both the <li> elements and the <button> */
 /* Apply styles to both the <li> elements and the <button> */
-nav ul li, nav button {
+nav ul li,
+nav button {
     display: inline-block;
- 
+
     background-color: #333;
     color: #fff;
     border: none;
     cursor: pointer;
-    text-decoration: none; /* Remove underline from buttons */
+    text-decoration: none;
+    /* Remove underline from buttons */
     font-size: 18px;
 }
 
 /* Apply hover effect to both the <li> elements and the <button> */
-nav ul li:hover, nav button:hover {
+nav ul li:hover,
+nav button:hover {
     background-color: #555;
 }
 
@@ -109,7 +113,7 @@ table {
     width: 80%;
 
     margin-top: 520px;
-   
+
 
 }
 
@@ -134,16 +138,29 @@ th {
 }
 
 .table-div {
-    
+
     margin-bottom: 1660px;
 }
 
-.embed{
+.embed {
 
     height: 100%;
     width: 100%;
 }
-.sh1{
-margin-left: 30%;
+
+.sh1 {
+
     margin-top: 180px;
+}
+
+.nc{
+background-color: #f0f0f0;
+width: 385px;
+height: 185px;
+/* margin-left: 60%; */
+border-radius: 8px;
+padding: 3px;
+
+
+
 }
