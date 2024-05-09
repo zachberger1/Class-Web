@@ -153,13 +153,13 @@ th {
     margin-top: 180px;
 }
 
-.nc{
-background-color: #f0f0f0;
-width: 385px;
-height: 185px;
-/* margin-left: 60%; */
-border-radius: 8px;
-padding: 3px;
+.nc {
+    background-color: #f0f0f0;
+    width: 385px;
+    height: 185px;
+    /* margin-left: 60%; */
+    border-radius: 8px;
+    padding: 3px;
 
 
 
@@ -172,13 +172,19 @@ padding: 3px;
     align-content: end;
     align-items: end;
     position: absolute;
-  }
+}
 
-  .ncm{
+.ncm {
 
     background-color: #f0f0f0;
     width: 385px;
     height: 65px;
     /* margin-left: 60%; */
     border-radius: 8px;
-    padding: 3px;}
+    padding: 3px;
+}
+
+.video {
+    width: 700px;
+    height: 500px;
+}
