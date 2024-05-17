@@ -1,7 +1,8 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    height: 100%;
 
 }
 
@@ -187,4 +188,30 @@ th {
 .video {
     width: 700px;
     height: 500px;
+}
+
+.gallery-display {
+background-color: grey;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    
+    height: 100%;
+}
+
+.gallery-container {
+    display: flex;
+    margin-top: 70px;
+
+}
+
+.gallery {
+   border-radius: 8px;
+    max-width: 480px;/* Set the max-width of the images */
+    /* height: auto;  */
+    margin: 0 10px; /* Add space between images */
+ 
+}
+.underimgtext{
+color: #ffffff;
 }
