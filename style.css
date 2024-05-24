@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -157,12 +158,12 @@ th {
 .nc {
     background-color: #f0f0f0;
     width: 385px;
-    height: 185px;
+    height: 150px;
     /* margin-left: 60%; */
     border-radius: 8px;
     padding: 3px;
 
-
+    margin-bottom: 10px;
 
 }
 
@@ -191,11 +192,13 @@ th {
 }
 
 .gallery-display {
-background-color: grey;
+    background-color: grey;
     display: flex;
-    align-items: center; /* Vertically center the content */
-    justify-content: center; /* Horizontally center the content */
-    
+    align-items: center;
+    /* Vertically center the content */
+    justify-content: center;
+    /* Horizontally center the content */
+
     height: 100%;
 }
 
@@ -206,12 +209,15 @@ background-color: grey;
 }
 
 .gallery {
-   border-radius: 8px;
-    max-width: 480px;/* Set the max-width of the images */
+    border-radius: 8px;
+    max-width: 480px;
+    /* Set the max-width of the images */
     /* height: auto;  */
-    margin: 0 10px; /* Add space between images */
- 
+    margin: 0 10px;
+    /* Add space between images */
+
 }
-.underimgtext{
-color: #ffffff;
+
+.underimgtext {
+    color: #ffffff;
 }
